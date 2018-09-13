@@ -26,7 +26,7 @@ export default {
   name: 'app',
   components: {
     'navmenu': NavMenu,
-    'vheader':Header,
+    'vheader': Header
   }
 }
 

@@ -50,20 +50,20 @@
 </template>
 
 <script>
-  import menu from '@/config/menu-config'
-  export default {
-    data(){
-      return {
-        menu:menu
-      }
+import menu from '@/config/menu-config'
+export default {
+  data () {
+    return {
+      menu: menu
+    }
+  },
+  methods: {
+    handleOpen (key, keyPath) {
+      console.log(key, keyPath)
     },
-    methods: {
-      handleOpen(key, keyPath) {
-        console.log(key, keyPath);
-      },
-      handleClose(key, keyPath) {
-        console.log(key, keyPath);
-      }
+    handleClose (key, keyPath) {
+      console.log(key, keyPath)
     }
   }
+}
 </script>
